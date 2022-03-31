@@ -1,0 +1,16 @@
+==================================================================
+===For display flex property [3 columns in a row] prevent float
+==================================================================
+
+Parent class{
+	display: flex;
+	justify-content: space-between;
+	align-item: stretch;(optional)
+}
+
+
+Child class{
+	flex-basis: 32%;
+	box-sizing: border-box;
+	flex: 1;(optional)
+}
